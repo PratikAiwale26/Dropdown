@@ -1,0 +1,49 @@
+/* img{
+   margin-top: 20px;
+   position: relative;  
+    position: absolute;
+   position: sticky;
+    top: 0px;
+   left: 0px; 
+   
+} */
+
+nav{
+    background-color: black;
+}
+
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+a:hover{
+    background-color:  white;
+    color: black;
+}
+
+#menu
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+#drop:hover #menu{
+    display: block;
+} 
